@@ -1,0 +1,18 @@
+body {
+    background-color: bisque;
+}
+
+mark {
+    background-color: salmon;
+}
+
+
+img {
+    height: auto;
+    width: 150px;
+}
+.cont{
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+}
