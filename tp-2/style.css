@@ -45,11 +45,13 @@ strong {
     list-style-type: circle;
 }
 
-.movies-list:nth-of-type(2) {
+
+ul.movies-list:nth-of-type(2) {
     padding-left: 40px;
 }
 
-.movies-list:nth-of-type(3) li:last-child {
+
+ul.movies-list:nth-of-type(3) li:last-child {
     margin-top: 20px;
 }
 
