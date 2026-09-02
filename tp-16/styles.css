@@ -1,0 +1,60 @@
+/* ==========================================================
+   Estilos para el TP 16 - PokéDex
+   ========================================================== */
+
+/* Efecto hover en las tarjetas */
+.pokemon-card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  border-radius: 10px;
+}
+
+.pokemon-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15) !important;
+}
+
+/* Imagen del Pokémon en la tarjeta */
+.card-img-top {
+  height: 130px;
+  object-fit: contain;
+  padding: 5px;
+}
+
+/* Título de la tarjeta */
+.card-title {
+  text-transform: capitalize;
+  font-size: 1.1rem;
+  margin-bottom: 0;
+}
+
+/* Etiquetas para los tipos de Pokémon */
+.badge-tipo {
+  font-size: 0.75rem;
+  padding: 4px 8px;
+  margin-right: 4px;
+  margin-bottom: 4px;
+  border-radius: 12px;
+  color: white;
+  display: inline-block;
+  text-transform: capitalize;
+}
+
+/* Colores de los tipos elementales */
+.tipo-normal   { background-color: #A8A878; }
+.tipo-fire     { background-color: #F08030; }
+.tipo-water    { background-color: #6890F0; }
+.tipo-grass    { background-color: #78C850; }
+.tipo-electric { background-color: #F8D030; color: #000; }
+.tipo-ice      { background-color: #98D8D8; color: #000; }
+.tipo-fighting { background-color: #C03028; }
+.tipo-poison   { background-color: #A040A0; }
+.tipo-ground   { background-color: #E0C068; }
+.tipo-flying   { background-color: #A890F0; }
+.tipo-psychic  { background-color: #F85888; }
+.tipo-bug      { background-color: #A8B820; }
+.tipo-rock     { background-color: #B8A038; }
+.tipo-ghost    { background-color: #705898; }
+.tipo-dragon   { background-color: #7038F8; }
+.tipo-dark     { background-color: #705848; }
+.tipo-steel    { background-color: #B8B8D0; color: #000; }
+.tipo-fairy    { background-color: #EE99AC; }
